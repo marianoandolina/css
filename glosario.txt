@@ -1,0 +1,6 @@
+CSS
+
+Significa cascade style sheet (hojas de estilo en cascada)
+Lo que nos permite el CSS es darle un estilo a una etiqueta paso por paso.
+Darle estilo en cascada.
+
