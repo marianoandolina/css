@@ -1,0 +1,40 @@
+/* 
+Este selector selecciona todos los elementos 
+
+* {
+    color: red;
+}
+*/
+
+/* 
+>Selectores de Tipo 
+Son aquellos que seleccionamos por elemento, o sea por h1,h2,button,p etc 
+
+h1 {
+    color: red;
+}
+*/
+
+/*
+>Selectores por clase
+Son aquellos que solo cambian la clase que nosotros indicamos, al realizar una etiqueta html podemos colocar el atributo class="" y luego cuando le queremos dar el estilo en css especificamos la clase.
+Para seleccionar la clase se utiliza el punto .
+Modifica a todos los elementos a los que le colocamos el atributo class="xxx" indiferentemente de el tipo de elemento que sea.
+
+
+.titulo-h2 {
+    color: blue;
+}
+*/
+
+/*
+>Selector por id
+Son los que seleccionamos por id del elemento o etiqueta */
+
+#id-del-elemento {
+    color: red;
+}
+
+
+
+

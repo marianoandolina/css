@@ -2,5 +2,33 @@ CSS
 
 Significa cascade style sheet (hojas de estilo en cascada)
 Lo que nos permite el CSS es darle un estilo a una etiqueta paso por paso.
-Darle estilo en cascada.
+Darle estilo en cascada. Con html tiramos todos los elementos arriba de la mesa y con CSS le damos estilo, forma, los acomodamos a nuestro antojo.
 
+Hay 4 formas de darle el estilo a lo que querramos, las que mas se usan son:
+* En un archivo externo
+* Estilos en linea
+
+Pero la que vamos a usar nosotrs que es la mejor y la que se tiene que usar es con link
+    * <link rel="stylesheet" href="">
+Dentro de href colocamos el link al archivo que le va a dar estilo al bloque o etiqueta
+Esta etiqueta va dentro del head
+
+Dentro del archivo CSS que vamos a linkear para darle estilo, la estructura correcta es:
+    selector{
+        propiedad:valor
+    }
+* El selector es lo que queremos cambiar, los o el que queramos cambiar.
+* La propiedad es lo que vamos a querer cambiar
+
+******* RECORDEMOS ***********
+En html tenemos elementos en linea y elementos en bloque
+Los elementos en bloque completan la linea hasta el final
+Los elementos en linea se ajustan a su tamaño
+*******************************
+
+Tipos de selectores
+
+* >Selecciona todos los elementos
+. >Para seleccionar por clase
+[nombre de etiqueta] >Selecciona todos los elementos que tengan esa etiqueta
+# >Selecciona por id
