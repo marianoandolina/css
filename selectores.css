@@ -48,4 +48,33 @@ Podemos agregarle un atributo personalizado a las etiquetas y para darle estilo 
 
 /*
 >Selector por descendencia
-A esta etiqueta la seleccionamos por descendencia
+A esta etiqueta la seleccionamos por descendencia por ejemplo
+Vamos a modificar la linea 14 del index por descendendcia, vamos a modifcar todos los p que esten dentro de un h3*/
+
+h3 p {
+    color:red
+}
+
+/* La siguiente es la etiqueta de la linea 15 que la vamos a modificar, esta dentro de h3 - p - b entonces entramos de la siguiente manera*/
+
+h3 p b {
+    color: lightblue;
+}
+
+/*En el siguiente ejemplo modificamos la linea 16 que tiene un class y nostros seleccionamos a los todos los que tengan ese class y dentro el p.*/
+
+.h3-class p {
+    color:orange
+}
+
+/*
+>Selector por Pseudoclases
+Las peseudoclases don los eventos de las selecciones. Un evento es por ejemplo posar el mouse encima de un elemento o darle click derecho o click izquierdo, arrastrar etc.
+Entonces lo que nosotros hacemos con este selector es que el estilo que nosotros le damos ocurra al momento de que ocurra el evento
+Por ejemplo vamos a hacer que el texto de la linea 17 cambie de negro a rojo al pasarle el mouse por arriba. 
+Se puede hacer con mas especificidad combinandolo con los otrs selectores como por ejemplo los de descendencia o los de ids como en el ejemplo*/
+
+#h3-hover:hover {
+    color: blue;
+}
+
