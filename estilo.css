@@ -8,12 +8,12 @@ Este selector selecciona todos los elementos
 
 /* 
 >Selectores de Tipo 
-Son aquellos que seleccionamos por elemento, o sea por h1,h2,button,p etc 
+Son aquellos que seleccionamos por elemento, o sea por h1,h2,button,p etc*/
 
 h1 {
     color: red;
 }
-*/
+
 
 /*
 >Selectores por clase
@@ -29,12 +29,23 @@ Modifica a todos los elementos a los que le colocamos el atributo class="xxx" in
 
 /*
 >Selector por id
-Son los que seleccionamos por id del elemento o etiqueta */
+Son los que seleccionamos por id del elemento o etiqueta, funciona casi igual a Class pero la idea es que el id se use de manera unica y class lo usemos de manera general o sea cuando queremos
+darle el mismo estilo a mas de un elemento usamos class y para darle estilo a un solo elemento usamos id.
+los ids tienen que ser unicos y no se pueden repetir.
+Una de las diferencias con class es que el id tiene mas rango de especificidad.*/
 
-#id-del-elemento {
-    color: red;
+#id-element {
+    color: red; font-style: italic;
 }
 
+/*
+>Selector por atributo
+Podemos agregarle un atributo personalizado a las etiquetas y para darle estilo a esa etiqueta usando el selector de atributos se hace de la siguiente manera*/
 
+[rancio="sii"] {
+    color: aqua; border-style: dotted; border-color: blue; text-decoration-line: underline;
+}
 
-
+/*
+>Selector por descendencia
+A esta etiqueta la seleccionamos por descendencia
