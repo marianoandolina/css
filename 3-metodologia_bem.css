@@ -1,0 +1,13 @@
+h1 {
+    text-align: center; font-size: 45px; background-color: rgb(240, 169, 143);
+}
+
+p {
+    font-size: 20px; background-color: rgb(240, 169, 143); text-align: justify ;
+}
+
+/* Metodologia BEM*/
+
+.contact-form__input--active {
+    color: chartreuse;
+}
