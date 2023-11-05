@@ -2,9 +2,15 @@ h1 {
     color: red;
 }
 
-.color-red {
+h2 {
     color: blue;
 }
 
 /* Cuando se selecciona en el mismo nivel de jerarquias el sistema decide por cascada, o sea que va a aplicar el estilo del ultimo que definimos
    Cuando no son de la misma jerarquia aplica el estilo del que mas jerarquia tenga*/
+
+h2 {
+    color: grey !important
+}
+
+/* Al estar el !important el estilo prevalece frente a otro. Es el de mas alta jerarquia.*/
