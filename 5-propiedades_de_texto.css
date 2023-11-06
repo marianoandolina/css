@@ -1,0 +1,29 @@
+
+.contact-form {
+    font-size: 25px;
+}
+
+.contact-form__h2 {
+    font-size: 2em; /*El tamaño de la funte*/
+    font-family: Tipografia; /*El tipo de fuente*/
+    line-height: 1.9; /*El espaciado de linea arriba y abajo*/
+    font-weight: normal; /*El ancho de la letra*/
+}
+
+/*Podemos buscar fuentes en Google Fonts, es muy facil exportarlas, tenemos fuentes de cualquier tipo, vamos a ver un ejemplo
+Se busca en Google fonts, se importa el codigo y se pega en el head y luego colocamos el nombre de la fuente en font-family*/
+
+.contact-form__h3{
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif; /*Como segunda opcion despues de la coma colocamos otro tipo de letra por si no encuentra la primera.*/
+}
+
+/*Otro ejemplo de fuente importada mucho mas loco que el anterior*/
+
+.contact-form__p {
+    font-size: 2em;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Sacramento', cursive;
+}

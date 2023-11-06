@@ -1,0 +1,26 @@
+* {
+    padding: 0px; /*Este atributo borra los margenes por defecto del navegador*/
+    margin: 0px /*Este atributo borra los margenes por defecto del navegador*/
+}
+
+.h2-opciones {
+    font-size: 15px;
+}
+
+.glosario {
+    font-size: 10px; /*Definimos en la caja, el tamaño que van a tener los em que definamos dentro de las etiquetas que vallan en esta caja*/
+}
+
+.glosario__p {
+    font-size: 2em; /*Estos em son equivalente por defecto a 16px pero en este caso valen 10px porque asi lo definimos en la caja que contiene esta etiqueta.*/
+}
+.contact-form {
+    font-size: 10px; /*Definimos en la caja, el tamaño que van a tener los em que definamos dentro de las etiquetas que vallan en esta caja*/    
+}
+
+.contact-form__h2 {
+    font-size: 3em; /*Estos em son equivalente por defecto a 16px pero en este caso valen 10px porque asi lo definimos en la caja que contiene esta etiqueta.*/
+    background-color: black; /* definimos el color de fondo*/
+    width: 20vw; /*Definimos cuanto va a ocupar esta caja en la pantalla (ancho)*/
+    height: 20vh; /*Definimos cuanto va a ocupar esta caja en la pantalla (alto)*/
+}
