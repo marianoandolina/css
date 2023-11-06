@@ -1,0 +1,32 @@
+h2 {
+    background-color: red; /*Nos permite cambiar el valor de fondo.*/
+    display: inline-block; /*Con este atributo se comporta como un elemento en linea pero adquiere las propiedades de un blocke*/
+
+    /*El padding
+
+    Es la distancia que hay entre el texto y la caja top, rigth, bottom, left
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    Si queremos que exista la misma distancia de padding de los 4 costados colocamos solo 
+
+    padding: 20px
+
+    Si queremos colocar un valor arriba y otro a los costados colocamos padding: valor valor
+
+    padding: 20px 30px
+
+    Si queremos colocar un valor en cada lugar de una manera mas sencilla hacemos padding: valor valor valor valor / El orden es top, rigth, botton, left
+
+    padding: 20px 30px 40px 50px
+
+    Si no definimos el cuarto valor queda definido como el tercero que es su lado opuesto */ 
+
+    padding: 20px 10px 20px 30px;
+    height: 100px; /*Alto de la caja*/
+    width: 100px; /*Ancho de la caja*/
+    box-sizing: border-box; /*Esta opcion es para que el tamaño de la caja incluya los paddings*/
+}   
