@@ -1,10 +1,16 @@
 h2 {
     background-color: red; /*Nos permite cambiar el valor de fondo.*/
     display: inline-block; /*Con este atributo se comporta como un elemento en linea pero adquiere las propiedades de un blocke*/
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px; 
+    
+    /*El marging
+    Es la distancia que hay entre las cajas
 
     /*El padding
-
-    Es la distancia que hay entre el texto y la caja top, rigth, bottom, left
+    Es la distancia que hay entre el elemento y los bordes interiores de la caja, top, rigth, bottom, left
     
     padding-bottom: 20px;
     padding-top: 20px;
@@ -25,8 +31,13 @@ h2 {
 
     Si no definimos el cuarto valor queda definido como el tercero que es su lado opuesto */ 
 
+    /*
     padding: 20px 10px 20px 30px;
-    height: 100px; /*Alto de la caja*/
-    width: 100px; /*Ancho de la caja*/
-    box-sizing: border-box; /*Esta opcion es para que el tamaño de la caja incluya los paddings*/
-}   
+    height: 100px; /*Alto de la caja
+    width: 400px; /*Ancho de la caja
+    box-sizing: border-box; /*Esta opcion es para que el tamaño de la caja incluya los paddings
+    text-align: center; Alinea el texto en el centro de la caja
+    */
+
+}
+   
