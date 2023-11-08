@@ -4,12 +4,43 @@ h2 {
     padding: 100px;
     box-sizing: border-box;
     text-align: center;
-    margin: 10px; 
+    margin: 10px;
+    border-radius: 2em; /*Es el redondeo del borde*/
+    border: 4px solid blue; /*Le damos un borde solido de 4 pixels de grosor y de color azul*/
+    box-shadow: 1px 4px 5px 4px #000;
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff  /*Esta es la sombra del texto*/
     
-    /*El marging
-    Es la distancia que hay entre las cajas
+    /*
+    Text shadow
+    Es la sombra que le podemos dar al texto,
+    El primer valor es el eje x, el segundo valor es el eje y, el tercer valor es la difuminacion y el cuarto es el color.
+    Para darle mas intensidad al efecto repetimos los valores, separados de una coma las veces que sea necesario para darle la intensidad que querramos.
 
-    /*El padding
+    text-shadow: 2px 2px 7px #fff
+
+    Para mas intensidad
+
+    text-shadow: 2px 2px 7px #fff, text-shadow: 2px 2px 7px #fff
+
+
+    Box Shadow 
+    Es la sobra que le vamos a poner a nuestra caja
+    El primer valor es le eje x, el segundo es el eje y, el tercero es el desenfoque, el cuarto ese la intensidad o relleno y el ultimo es el color.
+
+    box-shadow: 1px 4px 5px 4px #000;
+     
+
+    Box model
+    El box content es una jerarquia por la cual le vamos a dar estilo a nuestra caja:
+    1- Contenido
+    2- Padding 
+    3- Border 
+    4- Margin 
+
+    El marging
+    Es la distancia que hay entre las cajas, se le asignan los valores igual que el padding, top, rigth, bottom, left
+
+    El padding
     Es la distancia que hay entre el elemento y los bordes interiores de la caja, top, rigth, bottom, left
     
     padding-bottom: 20px;
@@ -29,9 +60,8 @@ h2 {
 
     padding: 20px 30px 40px 50px
 
-    Si no definimos el cuarto valor queda definido como el tercero que es su lado opuesto */ 
+    Si no definimos el cuarto valor queda definido como el tercero que es su lado opuesto
 
-    /*
     padding: 20px 10px 20px 30px;
     height: 100px; /*Alto de la caja
     width: 400px; /*Ancho de la caja
