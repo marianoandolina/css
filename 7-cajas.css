@@ -8,7 +8,9 @@ h2 {
     border-radius: 2em; /*Es el redondeo del borde*/
     border: 4px solid blue; /*Le damos un borde solido de 4 pixels de grosor y de color azul*/
     box-shadow: 1px 4px 5px 4px #000;
-    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff  /*Esta es la sombra del texto*/
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff;  /*Esta es la sombra del texto*/
+    transform: rotate(15deg); /*Sirve para que la caja rote, entre parentesis van los grados, los grados pueden ser valores negativos o positivos*/
+    
     
     /*
     Text shadow
