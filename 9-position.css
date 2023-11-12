@@ -1,10 +1,10 @@
-h1{
-    line-height: 1px;
+.subtitle{
+    text-decoration: underline red;
 }
 
 div{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: block;
     background: yellow;
 }
@@ -17,10 +17,18 @@ div{
 .caja2{
     background-color: green;
     position: relative;
+    
+    /*  top: 20px; /* La caja se mueve 20px pero conserva a su vez su lugar original.
+        left: 20px; /* La caja se mueve 20px pero conserva a su vez su lugar original.
+        bottom: 20px; /* La caja se mueve 20px pero conserva a su vez su lugar original.
+        right: 20px; /* La caja se mueve 20px pero conserva a su vez su lugar original.*/
 }
 
 .caja3{
     background-color: lightblue;
+    position: absolute;
+    opacity: .5; /*Es la transparencia que va a tener la caja.*/
+    margin-left: 250px;
 }
 
 .caja4{
