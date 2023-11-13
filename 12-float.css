@@ -1,0 +1,16 @@
+.contenedor{
+
+}
+
+.contenedor div{
+    display: inline-block;
+    width: 45%;
+}
+
+.primario{
+    background: red;
+}
+
+.segundario{
+    background: yellow;
+}

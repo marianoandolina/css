@@ -1,9 +1,16 @@
-div{
+.probando{
     width: 150px;
     height: 150px;
     margin: 20px;
     border: 10px solid red;
     background: yellow;
     display: inline-block; /* Con esta propiedad las cajas se ponen en linea, una a continuacion de la otra, si esta propiedad no esta toma la que es por defecto de la etiqueta.*/
+}
 
+.definiciones{
+    margin: 20px;
+}
+
+b {
+    text-decoration: underline green;
 }
