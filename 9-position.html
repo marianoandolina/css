@@ -23,23 +23,27 @@
     Es igual que el relative con la diferencia que cambian un par de cosas. <br>
     Al asignarle esta propiedad a la caja lo que ocurre es que deja de tener reservado su lugar en pantalla, por ende lo que este debajo de ella sube a su posicion. <br>
     Otra cosa que sucede con esta propiedad es que una vez declarada, hace que la caja se ajuste al contenido, ya sea un bloque o no. <br>
-    <b class="subtitle">Static:</b><br>
+    Tambien toma su posicion en referencia a la caja contenedora si esta posicionada pero de no estarlo su referencia para tomar posicion es el viewport. <br>
+    <b class="subtitle">Fixed:</b><br>
+    Es exactamente igual que el absolute pero solamente que queda fijo en un lugar, generalmente se usa para los menus o las publicidades. La caja se ajusta al contenido tambien. <br>
+    Al hacer scroll queda fijo siembre en pantalla. Se usa en las barras de nevegacion. <br>
+    <b class="subtitle">Sticky:</b><br>
+    Se comporta como un fixed cuando llega al punto de la pagina que nosotros le indicamos. <br>
+    Es como un mezcla entre el relative y el fixed. <br>
     <b class="subtitle">Z-Index:</b><br>
     Es la posicion sobre el eje z de los elementos, por ejemplo, si hay dos elementos encimados el que tenga mayor Z-Index se va a mostrar por encima, es como el "enviar adelante" o el "enviar hacia atras". <br>
     Por defecto el Z-Index es 0 y se recomienda a cada elemento que le asignemos esta propiedad que los valores salten de 20 en 20 o 30 en 30 o mas. <br>
     <b class="subtitle">Viewport:</b><br>
     Es todo lo que podemos ver en la pantalla.
     </p>
-<div class="caja1">
-    <h3>Caja 1</h3>
-</div>
-<div class="caja2">
-    <h3>Caja 2</h3>
-</div>
-<div class="caja3">
-    <h3>Caja 3</h3>
-</div>
-<div class="caja4">
-    <h3>Caja 4</h3>
+<div class="contenedor">
+
+    <div class="caja1">Caja 1</div>
+    <div class="caja2">Caja 2</div>
+    <div class="caja3">Caja 3</div>
+    <div class="caja4">Caja 4</div>    
+    <div class="caja5">Caja 5</div>    
+
+</div>    
 </body>
 </html>
