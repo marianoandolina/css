@@ -1,0 +1,32 @@
+.definiciones{
+    margin: 20px;
+}
+
+div{
+    margin: 20px;
+}
+
+.caja1{
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: background 1s, height 3s, width 3s; /*Maneja en que tiempo van a ocurrir los cambios cuando ocurran los eventos.*/
+    /*Para darle a todo el mismo valor usamos all*/
+    transition: all 1s;
+}
+
+/*Aca dictamos lo que va a ocurrir cuando pasemos el mouse sobre el elemento*/
+.caja1:hover{
+    background: red;
+    height: 350px;
+    width: 350px;
+}
+
+.caja2{
+    margin: 30px;
+    display: block;
+}
+
+.caja2:link{
+    color: red;
+}

@@ -49,10 +49,10 @@ input{
 
 }
 
-.pruebaafter::after{
-    content: "Esto es una pruba de ";
+.pruebaaf::after{
+    content: "Esto viene luego de after";
 }
 
-.pruebabefore::before{
-    content: "Esto es una pruba de ";
+.pruebabf::before{
+    content: "Esto viene antes dedoc";
 }
