@@ -1,16 +1,19 @@
 .contenedor{
-
+    margin: auto;
 }
 
 .contenedor div{
-    display: inline-block;
-    width: 45%;
+    float: right;
+    padding: 20px;
+    margin: auto;
 }
 
 .primario{
     background: red;
+    width: 70%;
 }
 
 .segundario{
     background: yellow;
+    width: 30%;
 }
