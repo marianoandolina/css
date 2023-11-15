@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="15-objet_fit.css">
+    <link rel="stylesheet" href="statics/normalize.css">
+    <title>Objet fit</title>
+</head>
+<body>
+    <div class="definiciones">
+        <h1>Object Fit</h1>
+        <p>
+            El atributo object-fit en CSS se utiliza para controlar cómo se ajusta una imagen u otro elemento de reemplazo dentro de su contenedor. 
+            Define cómo se escala la imagen y cómo se adapta al espacio disponible. <br>
+            Aquí hay una explicación más detallada de los valores posibles para object-fit: <br>
+            <b>fill:</b> Esta opción hace que la imagen se ajuste al contenedor sin importar su relación de aspecto, lo que puede provocar que se distorsione.
+            <b>contain:</b> La imagen se escala para ajustarse completamente dentro del contenedor, manteniendo su relación de aspecto. Puede haber espacios 
+            vacíos en los lados del contenedor si la relación de aspecto de la imagen no coincide con la del contenedor. <br>
+            <b>cover:</b> La imagen se escala para cubrir completamente el contenedor, manteniendo su relación de aspecto. Esto puede hacer que parte de la imagen 
+            quede fuera del contenedor si la relación de aspecto de la imagen y del contenedor son diferentes. <br>
+            <b>none:</b> La imagen no se ajusta y se muestra en su tamaño original, lo que puede provocar que se desborde del contenedor. <br>
+            <b>scale-down:</b> La imagen se escala según la opción none o contain, lo que resulte en una escala más pequeña. <br>
+        </p>
+    </div>
+    <div class="caja">
+        <img src="statics\gallardo.jpg" alt="">
+    </div>
+    
+</body>
+</html>

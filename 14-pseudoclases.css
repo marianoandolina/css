@@ -30,3 +30,25 @@ div{
 .caja2:link{
     color: red;
 }
+
+.caja3{
+    height: 250px;
+    width: 250px;
+    background: red;
+    margin: 80px;
+}
+
+/*Se ejecuta solo al hacer click en el elemento*/
+.caja3:active{
+    background: black;
+}
+
+form input{
+    color: black;
+    background: pink;
+    transition: 2s;
+}
+
+form input:focus{
+    background: red;
+}

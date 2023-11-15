@@ -1,0 +1,9 @@
+
+div p{
+    margin: 20px;
+}
+
+img{
+    margin: 40px;
+    contain: ; /*La imagen se ajusta al contenido*/
+}
