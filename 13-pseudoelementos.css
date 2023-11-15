@@ -1,0 +1,58 @@
+.definiciones{
+    margin: 20px;
+}
+
+.texto{
+    margin: 20px;
+}
+
+/*Pseudeoelementos*/
+
+
+/*Cambia las propiedades de la primera linea del html
+
+.texto::first-line{ 
+    color: blue;
+    font-size: 3em;
+}
+*/
+
+/*Cambia las propiedades de la primera letra*/
+
+.texto::first-letter{
+    color: greenyellow;
+}
+
+/*Para cambiear el estilo del placeholder del input usamos el pseudoelemento ::placeholder*/
+
+input::placeholder{
+    color: red; /*Ahora el texto del placeholder es rojo*/
+}
+
+/*Este cambia el estilo de cuando seleccionamos arrastrando el click iz*/
+input::selection{
+    background-color: black;
+    color: red;
+}
+
+form{
+    margin: 100px auto;
+    display: block;
+    background-color: grey;
+    padding: 100px;
+    width: 50%;
+}
+
+input{
+    padding: 6px;
+    width: 100%;
+
+}
+
+.pruebaafter::after{
+    content: "Esto es una pruba de ";
+}
+
+.pruebabefore::before{
+    content: "Esto es una pruba de ";
+}
