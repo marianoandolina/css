@@ -1,9 +1,24 @@
 
-div p{
+div p, h2{
     margin: 20px;
 }
 
-img{
-    margin: 40px;
-    contain: ; /*La imagen se ajusta al contenido*/
+.caja{
+    width: auto;
+    height: 300;
+    margin: 25px;
+    border: 5px solid red;
 }
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain; /*La imagen se ajusta al contenido*/
+    /*object-fit: cover; agranda las resolusiones para ajustarse a la caja o al contenido*/
+    /*object-fit: none; Coloca la imagen en la resolucion original y le importa 3 carajos.*/
+    /*object-fit: scale-down; Se queda con el que menos espacio ocupe entre none y contain*/
+    
+
+
+    
+
