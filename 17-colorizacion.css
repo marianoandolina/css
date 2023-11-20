@@ -1,5 +1,5 @@
 body{
-    background: lightgray;
+    background: rgba(200,200,200,.5); /*Podemos pasar el color con numeros de rgb o rgba, la a corresponde a la opacidad.*/
 }
 
 .definiciones{
@@ -7,13 +7,24 @@ body{
 }
 
 .caja{
-    border: 5px solid red;
-    margin: 40px;
-    width: 300;
-    height: 500;
-    background-color: lightblue;
+    border: 5px solid DeepSkyBlue;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    background-color:DarkGoldenrod;
+    padding: 5px;
 }
 
 .allink{
     display: inline;
+}
+
+h2{
+    border: 5px solid green;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    background-color: darkblue;
+    display: inline-block;
+    padding: 10px;
 }
