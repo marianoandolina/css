@@ -36,3 +36,67 @@
     text-align: right;
     margin-right: 5px;
 }
+
+.nav__responsive-buttom-container{
+    float: right;
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    background-color: #69c;
+    margin-top: -64px;
+
+}
+
+.nav__responsive-buttom{
+    float: right;
+    padding: 6px 20px;
+    text-align: right;
+    width: 100px;
+}
+
+@media only screen and (max-width:500px) {
+    .definiciones{
+        display: none;
+    }
+    .nav__ul{
+        display: none;
+    }
+    .nav{
+        height: 37px;
+    }
+    .nav__responsive-ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        background-color: #7af;
+        margin-top: 37px;
+        padding-top: 27px;
+    }
+    .nav__responsive-li{
+        width: 100%;
+        padding: 9px 20px;
+    }
+    .nav__responsive-li i{
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 30px;
+        color: #028;
+    }
+
+    .nav__responsive-li a{
+        color: #016;
+        text-decoration: none;
+    }
+
+    .nav__li-container{
+        position: relative;
+        top: -200px;
+        height: calc(100vh - 64px);
+    }
+
+    .nav__responsive-ul:hover{
+
+    }
+
+}
