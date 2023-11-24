@@ -3,6 +3,36 @@
     margin-left: 40px;
 }
 
-.caja1, .caja2{
-    margin: 40px;
+.nav__responsive-ul{
+    display: none;
+}
+
+.nav{
+    background-color: darkblue;
+}
+
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+
+.nav__li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__li:hover a{
+    color: #bbb;
+}
+
+.nav__li:hover{
+        color: #bbb;
+}
+
+.nav__li i{
+    width: 30px;
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
 }

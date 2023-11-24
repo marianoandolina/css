@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="18-responsive_design.css">
     <link rel="stylesheet" href="statics/normalize.css">
+    <script src="https://kit.fontawesome.com/168af1f315.js" crossorigin="anonymous"></script>
     <title>Responsive design, movil first</title>
 </head>
 <body>
@@ -20,20 +21,30 @@
             Las media queries permiten especificar reglas de CSS que se aplican a diferentes tamaños de pantalla.
             Por ejemplo, se puede utilizar una media query para especificar que un elemento se muestre en una sola columna en dispositivos móviles y en dos columnas en dispositivos de escritorio. <br>
             <br>
-            En esta parte del video Dalto realiza un menu desplegable movil y un menu de escritorio
+            Basicamente lo que hay que hacer es crear la pagina e indicarle
+            a los diferentes menus como se van a comportar cuando la resolusion cambie a las diferentes dispositivos. <br>
         </p>
     </div>
-    <div class="caja1">
-        <h1>Esta es el titulo de la plataforma</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deserunt quia rerum doloremque quo, earum quas consequatur voluptas reiciendis officia laudantium doloribus et magni aspernatur sit, harum, soluta optio vero!
-        </p>
-    </div>
-    <div class="caja2">
-        <h2>Este es el titulo del subtitulo</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto libero expedita omnis totam esse, fugiat voluptates unde ipsum culpa soluta facere dolores facilis atque doloremque et doloribus. Inventore, repellat.
-        </p>
+    <div>
+        <header>
+            <nav class="nav">
+                <ul class="nav__ul">
+                        <li class="nav__li"><i class="fa-solid fa-house"></i><a href="#">Inicio</a></li>    
+                        <li class="nav__li"><i class="fa-solid fa-person"></i><a href="#">Sobre nosotros</a></li>    
+                        <li class="nav__li"><i class="fa-regular fa-money-bill-1"></i><a href="#">Gana dinero</a></li>    
+                        <li class="nav__li"><i class="fa-solid fa-helicopter-symbol"></i><a href="#">Ayuda</a></li>  
+                </ul>         
+                    <ul class="nav__responsive-ul">
+                        <div class="nav__responsive-buttom"></div>
+                        <div class="nav__li-container">
+                            <li class="nav__responsive-li"><i class="fa-solid fa-house"></i><a href="#">Inicio</a></li>     
+                            <li class="nav__responsive-li"><i class="fa-solid fa-person"></i><a href="#">Sobre nosotros</a></li>     
+                            <li class="nav__responsive-li"><i class="fa-regular fa-money-bill-1"></i><a href="#">Gana dinero</a></li>      
+                            <li class="nav__responsive-li"><i class="fa-solid fa-helicopter-symbol"></i><a href="#">Ayuda</a></li>   
+                        </div>
+                    </ul>
+            </nav>
+        </header>
     </div>
 </body>
 </html>
