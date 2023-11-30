@@ -1,0 +1,35 @@
+.descripcion{
+    margin: 20px;
+}
+
+.imagen{
+    width: 500;
+    display: block;
+}
+
+img{
+    object-fit: contain;
+    position: relative;
+}
+
+.flex-container{
+    display: flex; /*le damos la propiedad flex*/
+    flex-wrap: wrap; /* Las cajas mantienen el tamaño que le damos, entonces al achicar la pantalla se van hacia abajo*/
+}
+
+.flex-item{
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    width: 120px; /*si no le damos esta propiedad las cajas vacias desaparecen*/
+    text-align: center;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.green{
+    background: green;
+}

@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="19-flex_box.css">
+    <link rel="stylesheet" href="statics/normalize.css">
+    <title>Flex Box</title>
+</head>
+<body>
+    <div class="descripcion">
+        <h1>Flex Box</h1>
+        <p>
+            Para usar flexbox, primero debemos definir un elemento contenedor como flexbox. Esto se hace usando la propiedad display: flex. <br>
+            <br>
+            Una vez que tenemos un elemento contenedor flexbox, podemos usar las propiedades flexbox para controlar la forma en que se distribuyen los elementos dentro del contenedor. <br>
+            <br>
+            Las propiedades flexbox más importantes son: <br>
+            <br>
+            *** Las propiedades se aplican al contenedor pero afectan a los items *** <br>
+            <br>
+            flex-direction: especifica la dirección del eje principal. El valor predeterminado es row, lo que significa que los elementos se distribuyen horizontalmente. <br>
+            Si le indicamos row-reverse invierte la direccion del main axis de derecha a izquierda. <br>
+            El valor column significa que los elementos se distribuyen verticalmente. <br>
+            justify-content: especifica cómo se justifican los elementos a lo largo del eje principal. Los valores posibles incluyen flex-start, flex-end, center, space-between y space-around. <br>
+            align-items: especifica cómo se alinean los elementos a lo largo del eje cruzado. Los valores posibles incluyen flex-start, flex-end, center, baseline y stretch. <br>
+            <br>
+            Flex intenta siempre mantener la altura de la caja cuando hay 2 o mas cajas en la misma linea mediante el ajuste del contenido.
+            <div class="imagen">
+                <img src="statics\flex_box.jpg" alt="">
+            </div>
+        </p>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item yellow">
+            Caja flexible
+        </div>
+        <div class="flex-item">
+            Caja flexible
+        </div>
+        <div class="flex-item">
+            Caja flexible
+        </div>
+        <div class="flex-item">
+            Caja flexible
+        </div>
+        <div class="flex-item">
+            Caja flexible
+        </div>
+        <div class="flex-item green">
+                Caja flexible
+        </div>
+    </div>
+</body>
+</html>
